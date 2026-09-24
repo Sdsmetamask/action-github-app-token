@@ -1,3 +1,5 @@
+> ⚠️⚠️⚠️ Deprecated, please use the official one from GitHub instead https://github.com/actions/create-github-app-token
+
 # action-github-app-token
 
 This uses GitHub Apps to fetch a GitHub auth token for a GitHub App installation.
@@ -22,7 +24,7 @@ You will need to provide the GitHub App ID and private key. The action will then
 ```
   - name: my-app-install token
     id: my-app
-    uses: getsentry/action-github-app-token@v3
+    uses: getsentry/action-github-app-token@v3.1
     with:
       app_id: ${{ secrets.APP_ID }}
       private_key: ${{ secrets.APP_PRIVATE_KEY }}
